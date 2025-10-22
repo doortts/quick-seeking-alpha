@@ -26,7 +26,7 @@ This document explains what information the extension handles and its limited sc
 
 ## 6. Contact
 For any questions or concerns, please contact:  
-[your-email@example.com](mailto:your-email@example.com)
+[doortts.privacy@gmail.com](mailto:doortts.privacy@gmail.com)
 
 ---
 © 2025 Seeking Alpha Link Modifier. All rights reserved.
