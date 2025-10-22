@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Seeking Alpha Link Modifier - Options</title>
+  <link rel="stylesheet" href="options.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Seeking Alpha Link Modifier</h1>
+      <p class="subtitle">Configure URL patterns and UTM parameters</p>
+    </header>
+
+    <main>
+      <section class="settings-section">
+        <div class="setting-item">
+          <label class="toggle-label">
+            <input type="checkbox" id="enabledToggle">
+            <span class="toggle-text">Enable extension</span>
+          </label>
+        </div>
+      </section>
+
+      <section class="settings-section">
+        <h2>URL Patterns</h2>
+        <p class="description">Add URL path patterns that should be modified (e.g., /article, /market-news)</p>
+
+        <div class="pattern-input-group">
+          <input type="text" id="patternInput" placeholder="Enter URL pattern (e.g., /article)" />
+          <button id="addPatternBtn" class="btn btn-primary">Add Pattern</button>
+        </div>
+
+        <ul id="patternList" class="pattern-list"></ul>
+      </section>
+
+      <section class="settings-section">
+        <h2>UTM Postfix</h2>
+        <p class="description">The query string to append to matching URLs</p>
+
+        <input type="text" id="postfixInput" class="postfix-input" placeholder="e.g., ?utm_source=nh&utm_medium=referral" />
+      </section>
+
+      <section class="settings-section">
+        <div class="button-group">
+          <button id="saveBtn" class="btn btn-success">Save Settings</button>
+          <button id="resetBtn" class="btn btn-secondary">Reset to Defaults</button>
+        </div>
+        <div id="statusMessage" class="status-message"></div>
+      </section>
+    </main>
+  </div>
+
+  <script src="options.js"></script>
+</body>
+</html>

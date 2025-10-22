@@ -14,7 +14,12 @@ Seeking Alpha의 기사 및 시장 뉴스 링크에 UTM 파라미터를 자동�
 #### 주요 기능
 
 - ✅ 설정된 패턴과 일치하는 링크 자동 수정 (기본값: `/article`, `/market-news`)
-- ✅ 옵션 페이지를 통한 설정 가능
+- ✅ 수정된 링크를 새 탭으로 열기
+- ✅ 사용자 정의 가능한 UTM 파라미터 추가
+- ✅ 깨끗한 URL을 위한 해시 프래그먼트 제거
+- ✅ 동적으로 로드되는 콘텐츠 지원
+- ✅ 옵션 페이지를 통한 완전한 설정 가능
+- ✅ 실시간 설정 업데이트
 
 #### 설치 방법
 
@@ -130,7 +135,9 @@ A lightweight Chrome extension that automatically appends UTM parameters to Seek
 - ✅ Opens modified links in new tabs
 - ✅ Adds customizable UTM parameters
 - ✅ Removes hash fragments for clean URLs
+- ✅ Works with dynamically loaded content
 - ✅ Fully configurable via Options page
+- ✅ Real-time settings updates
 
 ## Installation
 
@@ -337,4 +344,3 @@ For issues or questions:
 ---
 
 Made with ❤️ for better link tracking on Seeking Alpha
-
